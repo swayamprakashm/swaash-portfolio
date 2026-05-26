@@ -4,7 +4,7 @@ import { Menu, X, Download } from 'lucide-react';
 import { navLinks, personalInfo } from '../../constants';
 import logoImg from '../../assets/logo.png';
 import ThemeToggle from '../common/ThemeToggle';
-import resumePDF from '../../components/shared/Resume.pdf';
+
 
 
 const Navbar = ({ setActiveSection }) => {
@@ -54,7 +54,7 @@ const Navbar = ({ setActiveSection }) => {
         >
           {/* Resume Download Button */}
           <a 
-            href={resumePDF} 
+            href="/Resume.pdf" 
             download="Swayam_Prakash_Resume.pdf"
             className="flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 dark:border-white/10 text-gray-700 dark:text-gray-300 hover:text-swaash-purple dark:hover:text-swaash-purple hover:border-swaash-purple/50 transition-all duration-300 text-sm font-medium"
           >
