@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-swaash-dark text-white antialiased selection:bg-swaash-cyan selection:text-swaash-dark;
+    /* This ensures a smooth dark background globally and custom text selection colors */
+  }
+}
+
+/* Custom utility for the frosted glass effect we will use in the Navbar and Cards */
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+}
+
+/* src/index.css */
+
+/* Keep your existing dark glass class */
+.glass-panel {
+  @apply bg-black/5 dark:bg-black/10 backdrop-blur-md;
+}
+
+/* NEW: Add a specific light-frost version for when the button flips */
+.glass-panel-light {
+  @apply bg-white/20 dark:bg-black/10 backdrop-blur-md border border-black/5 dark:border-white/10;
+}
