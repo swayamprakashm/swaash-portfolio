@@ -66,7 +66,8 @@ const Contact = () => {
           transition={{ delay: 0.1 }}
           className="lg:col-span-5 flex flex-col gap-6"
         >
-          <div className="bg-white/40 dark:bg-black/20 backdrop-blur-md p-8 rounded-2xl border border-black/10 dark:border-white/5 transition-colors duration-300">
+          {/* APPLIED FIX: Changed backdrop-blur-md to backdrop-blur-none md:backdrop-blur-md will-change-transform */}
+          <div className="bg-white/40 dark:bg-black/20 backdrop-blur-none md:backdrop-blur-md will-change-transform p-8 rounded-2xl border border-black/10 dark:border-white/5 transition-colors duration-300">
             <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 transition-colors duration-300">
               Contact Information
             </h4>
@@ -122,9 +123,10 @@ const Contact = () => {
           transition={{ delay: 0.2 }}
           className="lg:col-span-7"
         >
+          {/* APPLIED FIX: Changed backdrop-blur-md to backdrop-blur-none md:backdrop-blur-md will-change-transform */}
           <form 
             onSubmit={handleSubmit}
-            className="bg-white/40 dark:bg-black/20 backdrop-blur-md p-8 rounded-2xl border border-black/10 dark:border-white/5 flex flex-col gap-6 transition-colors duration-300"
+            className="bg-white/40 dark:bg-black/20 backdrop-blur-none md:backdrop-blur-md will-change-transform p-8 rounded-2xl border border-black/10 dark:border-white/5 flex flex-col gap-6 transition-colors duration-300"
           >
             {/* The Access Key is here once, and nowhere else */}
             <input type="hidden" name="access_key" value="763e0a69-3150-4e4c-91ca-e61103cb8c47" />
