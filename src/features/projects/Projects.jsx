@@ -27,15 +27,15 @@ const Projects = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="bg-white/40 dark:bg-black/20 backdrop-blur-md rounded-2xl border border-black/10 dark:border-white/10 hover:border-swaash-cyan/50 dark:hover:border-swaash-cyan/30 transition-all duration-300 flex flex-col h-full group overflow-hidden"
+            className="bg-white/40 dark:bg-black/20 backdrop-blur-none md:backdrop-blur-md will-change-transform rounded-2xl border border-black/10 dark:border-white/10 hover:border-swaash-cyan/50 dark:hover:border-swaash-cyan/30 transition-all duration-300 flex flex-col h-full group overflow-hidden"
           >
             {/* Project Image Header */}
             <div className="relative h-48 w-full overflow-hidden border-b border-black/10 dark:border-white/10">
               <img 
-  src={project.image} 
-  alt={project.title} 
-  className="w-full h-full object-contain p-6 transform group-hover:scale-105 transition-transform duration-500"
-/>
+                src={project.image} 
+                alt={project.title} 
+                className="w-full h-full object-contain p-6 transform group-hover:scale-105 transition-transform duration-500"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60" />
             </div>
 
