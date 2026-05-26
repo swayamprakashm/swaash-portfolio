@@ -1,16 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Swaash Technologies | Official Portfolio
 
-Currently, two official plugins are available:
+A high-performance, responsive corporate portfolio website built for **Swaash Technologies**. This platform serves as our digital storefront, showcasing our engineering expertise, project portfolio, and service capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+[View Live Site](https://your-netlify-url-here.netlify.app)
 
-## React Compiler
+## 🛠 Tech Stack
+- **Frontend:** React.js, Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Form Handling:** Web3Forms API
+- **Deployment:** Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+- **Cinematic UI:** A modern, dark-themed agency-style interface with fluid micro-interactions.
+- **Dynamic Portfolio:** Easily scalable project gallery managed via a centralized constants file.
+- **Real-Time Communication:** Integrated contact system with instant email notifications.
+- **Mobile-First Design:** Fully responsive architecture optimized for all screen sizes.
+- **Performance Optimized:** Built with Vite for rapid load times and efficient asset management.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```text
+/src
+  /assets        # Global images and branding
+  /components    # Reusable UI components (Navbar, Footer, Contact, etc.)
+  /constants     # Configuration for projects, skills, and site info
+  /features      # Domain-specific logic
+/public
+  /projects      # High-resolution project screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository:**
+```bash
+git clone [https://github.com/swayamprakashm/swaash-technologies-portfolio.git](https://github.com/swayamprakashm/swaash-technologies-portfolio.git)
+
+```
+
+
+2. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+3. **Run the development server:**
+```bash
+npm run dev
+
+```
+
+
+
+## 🤝 Connect with Us
+
+* **Email:** [swaashtechnologies@gmail.com](mailto:swaashtechnologies@gmail.com)
+* **Location:** Secunderabad, India
+* **Role:** Jr. MERN Stack Developer Intern
+
+---
+
+*Built with passion by Swayam Prakash Macharla.*
+
+```
